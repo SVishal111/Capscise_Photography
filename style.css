@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: khaki;
+}
+
+.navBar {
+    height: 130px;
+}
+
+.topBar {
+    height: 30%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactInfo {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.contactInfo p {
+    font-size: 13px;
+}
+
+.contactInfo p a{
+    text-decoration: none;
+    color: #999999;
+}
+
+.contactInfo p i {
+    padding-right: 10px;
+    color: red;
+}
+
+.smIcons {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.smIcons a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.bottomBar {
+    width: 100%;
+    height: 70%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #cccccc;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo h2 {
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.navLinks {
+    margin-right: 30px;
+    width: 35%;
+    height: 100%;
+
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.navLinks ul {
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLinks ul li {
+    list-style-type: none;
+}
+
+.navLinks ul li a {
+    text-decoration: none;
+    color: black;
+
+    opacity: 0.8;
+}
+
+.navLinks ul li:hover a{
+    opacity: 1;
+}
+
+.heroSection{
+    background-color: blue;
+    background-image: url("./images/Lightroom\ Background\ Image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 156px 0px;
+}
+
+.jumbotron {
+    width: 83%;
+    /* background-color: chartreuse; */
+    text-align: center;
+    margin: 0px 100px;
+}
+
+.jumbotron h1 {
+    /* color: #cccccc; */
+    color: white;
+    font-size: 55px;
+    font-family: 'Courgette', cursive;
+}
+
+.jumbotron p {
+    color: #cccccc;
+    padding: 25px 0px;
+}
+
+button {
+    height: 45px;
+    width: 150px;
+    background-color: #024c65;
+    border: none;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: #cccccc;
+    transition: 0.4s;
+}
+
+button:hover a{
+    color: black;
+    transition: 0.4s;
+}
+
+main {
+    background-color: purple;
+    background-image: url("./images/Camera\ Background\ Image.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section {
+    background-color: #cccccc;
+    padding: 25px 30px;
+    border-top: 2px solid black;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h2{
+    font-size: 35px;
+    padding: 25px;
+}
+
+.aboutText {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutText p {
+    width: 80%;
+    text-align: center;
+}
+
+.aboutImages {
+    width: 100%;
+    margin: 30px 0px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 3fr));
+    gap: 2rem;
+
+    justify-items: center;
+}
+
+.aboutImages img {
+    width: 400px;
+    aspect-ratio: 16/9;
+}
+
+.teamLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 0px;
+    /* background-color: powderblue; */
+}
+
+.teamRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 0px;
+}
+
+.teamimg img {
+    width: 400px;
+    aspect-ratio: 4/3;
+}
+
+.teamText {
+    margin: 0px 25px;
+}
+
+.teamText p {
+    margin: 20px 0px;
+}
+
+.teamText h3 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.teamText ul li{
+    list-style-type: none;
+    line-height: 1.8;
+}
+
+.teamText ul li i {
+    color: #00bb00;
+    padding-right: 10px;
+}
+
+.boxContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 2rem;
+
+    justify-items: center;
+}
+
+.boxContainer img {
+    height: 225px;
+    aspect-ratio: 16/9;
+}
+
+.contactUs {
+    background-color: #ccccccb4;
+    padding: 80px 0px;
+}
+
+.contactDetails{
+    text-align: center;
+}
+
+.contactDetails p{
+    margin: 0px 30px 20px;
+}
+
+.varietyOfServices .heading h2 {
+    padding-bottom: 40px;
+}
+
+.varietyOS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.varietyImage {
+    padding: 15px;
+    height: 350px;
+}
+
+.varietyImage img{
+    height: 100%;
+    aspect-ratio: 16/9;
+}
+
+.varietyText h3 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.varietyText p {
+    padding: 15px 0px;
+    line-height: 1.9;
+}
+
+.varietyText .varietyMainText {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.varietyText p i {
+    font-size: 25px;
+    /* padding: 0px 15px 10px 0px; */
+    padding-right: 15px;
+}
+
+#accordion {
+    margin: 30px auto;
+    width: 700px;
+}
+
+#accordion li {
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#accordion li label {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+}
+
+#accordion li label span {
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* #accordion li label:active span{
+    transform: rotate(270deg);
+    transition: 0.3s;
+} */
+
+#accordion label + input[type="checkbox"] {
+    display: none;
+}
+
+#accordion .content {
+    padding: 0px 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+#accordion label + input[type="checkbox"]:checked + .content {
+    max-height: 400px;
+}
+
+footer{
+    background-color: #969696;
+    padding: 30px;
+}
+
+.brandText .logo{
+    margin-bottom: 15px;
+}
+
+.brandText p {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.brandText span p {
+    padding-top: 15px;
+}
+
+.miscInfo {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.miscLinks {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brandLinks ul li{
+    list-style-type: none;
+    /* text-align: center; */
+}
+
+.brandLinks h3 {
+    padding-bottom: 15px;
+}
+
+.brandLinks ul li{
+    line-height: 2;
+}
+
+.brandAddress h3 {
+    padding-bottom: 15px; 
+}
+
+.brandLinks ul li a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}
+
+.brandLinks ul li a:hover {
+    opacity: 1;
+}
+
+.brandAddress p {
+    line-height: 1.8;
+}
+
+.copyrights {
+    border-top: 1px solid black;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.copyrights h6 {
+    font-size: 23px;
+    font-weight: 500;
+}
