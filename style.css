@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -125,7 +126,7 @@ header {
 }
 
 .jumbotron {
-    width: 83%;
+    width: 90%;
     /* background-color: chartreuse; */
     text-align: center;
     margin: 0px 100px;
@@ -207,7 +208,7 @@ section {
     margin: 30px 0px;
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(380px, 3fr));
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
     gap: 2rem;
 
     justify-items: center;
